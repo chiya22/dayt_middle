@@ -303,7 +303,9 @@
                 <td>Price ¥10,000</td>
             </tr>
         </table>
-        <p class="price__text">※ 上記料金はサンプルです。</p>
+        <div class="price__text">
+            <p>※ 上記料金はサンプルです。</p>
+        </div>
         <!-- /.price__text -->
 
     </section>
@@ -311,28 +313,28 @@
 
     <section id="comments" class="comments">
 
-        <div class="comments__content-left">
+        <div class="comments__content">
             <div class="comments__header midashi">Comments</div>
             <!-- /.commnets__header -->
 
             <div class="comments__items">
                 <div class="comments__item">
-                    <div class="comments__img">
+                    <div class="comments__item-img">
                         <img src="img/comments1.png">
                     </div>
                     <!-- /.comments__img -->
-                    <div class="comments__text">
+                    <div class="comments__item-text">
                         どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
                     <!-- /.comments__text -->
                 </div>
                 <!-- /.commnets__item -->
 
                 <div class="comments__item">
-                    <div class="comments__img">
+                    <div class="comments__item-img">
                         <img src="img/comments2.png">
                     </div>
                     <!-- /.comments__img -->
-                    <div class="comments__text">
+                    <div class="comments__item-text">
                         どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。意地を通せば窮屈だ。</div>
                     <!-- /.comments__text -->
                 </div>
@@ -342,7 +344,7 @@
         </div>
         <!-- /.commnets_content-left -->
 
-        <div class="comments__content-right">
+        <div class="comments__img">
             <img src="img/comments3.png">
         </div>
         <!-- /.comments__content-right -->
@@ -427,10 +429,11 @@
         <!-- /.access_content -->
 
         <div class="access__gmap">
-            <iframe
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6714145963856!2d139.72708991518877!3d35.66046643871796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b7708fe1bcd%3A0xf0b2a3bc402345f2!2z44CSMTA2LTAwMzIg5p2x5Lqs6YO95riv5Yy65YWt5pys5pyo77yW5LiB55uu77yR77yQIOWFreacrOacqOODkuODq-OCuuajruOCv-ODr-ODvA!5e0!3m2!1sja!2sjp!4v1552842842226" allowfullscreen></iframe>
+            <!-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12966.677220671161!2d139.7292814!3d35.6605184!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccc3467fcb15b353!2zR29vZ2xl5ZCI5ZCM5Lya56S-44O75YWt5pys5pyo44Kq44OV44Kj44K5!5e0!3m2!1sja!2sjp!4v1596835650634!5m2!1sja!2sjp"
                 width="720" height="505" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+                tabindex="0"></iframe> -->
         </div>
         <!-- /.access__gmap -->
 
@@ -497,7 +500,7 @@
     <footer>
 
         <div class="footer__wrapper">
-            <div class="footer__left">
+            <div class="footer__content">
                 <div class="footer__sns">
                     <a href=""><i class="fab footer-tw fa-twitter fa-2x"></i></a>
                     <a href=""><i class="fab footer-fb fa-facebook-square fa-2x"></i></a>
@@ -514,7 +517,7 @@
             </div>
             <!-- /.footer_left -->
 
-            <div class="footer__right">
+            <div class="footer__logo">
                 <div class="footer__text">HANIWAMAN Corp.</div>
                 <!-- /.footer__header -->
                 <div class="footer__copyrigth">© Haniwaman Landing page Sample.</div>
