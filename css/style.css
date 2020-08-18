@@ -407,6 +407,10 @@ header ul li a {
   color: #fff;
 }
 
+.wp_pagenavi {
+  color: #333;
+}
+
 .service {
   background: linear-gradient(180deg, #3e3e3e 0%, #3e3e3e 400px, transparent 400px, transparent 100%);
   padding-bottom: 130px;
